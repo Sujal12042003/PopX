@@ -1,0 +1,6 @@
+/* App.css: Imports Tailwind CSS and sets a background color for the app */
+@import "tailwindcss";
+
+body{
+  background-color: #f7f8f9;
+}
