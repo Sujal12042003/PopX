@@ -52,7 +52,7 @@ const Login = () => {
         {/* Submit button */}
         <button
           type="submit"
-          className={`w-full bg-[#6C25FF] text-white py-2 px-4 rounded ${!isActive ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
+          className={`w-full bg-[#6C25FF] text-white py-2 px-4 rounded active:scale-95 cursor-pointer transition ${!isActive ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
           disabled={!isActive}
         >
           Sign In

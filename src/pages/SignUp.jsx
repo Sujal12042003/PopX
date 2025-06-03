@@ -132,7 +132,7 @@ const SignUp = () => {
         {/* Submit button */}
         <button
           type="submit"
-          className={`w-full bg-[#6C25FF] text-white py-2 px-4 rounded ${(form.name.trim() && form.email.trim()) ? 'cursor-pointer' : 'opacity-50 cursor-not-allowed'}`}
+          className={`w-full bg-[#6C25FF] text-white py-2 px-4 rounded active:scale-95 cursor-pointer transition ${(form.name.trim() && form.email.trim()) ? 'cursor-pointer' : 'opacity-50 cursor-not-allowed'}`}
           disabled={!(form.name.trim() && form.email.trim())}
         >
           Create Account
