@@ -23,7 +23,7 @@ const Login = () => {
     <div className="flex items-center justify-center min-h-screen">
       <form className="p-8 w-full max-w-md" onSubmit={handleSubmit}>
         {/* Page title and description */}
-        <h2 className="text-3xl font-bold mb-2 text-left">Signin to your PopX account</h2>
+        <h2 className="text-2xl font-bold mb-2 text-left">Signin to your PopX account</h2>
         <p className="mb-6 text-left text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         {/* Email input field */}
         <fieldset className="mb-4 border rounded px-3 py-2 relative">

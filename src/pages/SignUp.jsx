@@ -33,7 +33,7 @@ const SignUp = () => {
     <div className="flex items-center justify-center min-h-screen">
       <form className="w-full max-w-md p-6" onSubmit={handleSubmit}>
         {/* Page title */}
-        <h2 className="text-4xl font-bold mb-8 text-left leading-tight">
+        <h2 className="text-2xl font-bold mb-8 text-left leading-tight">
           Create your
           <br />
           PopX account
@@ -112,6 +112,7 @@ const SignUp = () => {
                 value="yes"
                 checked={form.agency === "yes"}
                 onChange={handleChange}
+                className="p-2 mr-2 cursor-pointer"
               />
               Yes
             </label>
@@ -122,6 +123,7 @@ const SignUp = () => {
                 value="no"
                 checked={form.agency === "no"}
                 onChange={handleChange}
+                className="p-2 mr-2 cursor-pointer"
               />
               No
             </label>
