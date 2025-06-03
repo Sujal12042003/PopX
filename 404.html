@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=/PopX/" />
+    <script>
+      // If the user visits a sub-route, redirect to index.html and let React Router handle it
+      var redirectTo = '/PopX' + window.location.pathname.replace('/PopX', '') + window.location.search + window.location.hash;
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body></body>
+</html>
