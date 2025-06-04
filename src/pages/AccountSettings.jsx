@@ -8,13 +8,13 @@ const AccountSettings = () => {
   const location = useLocation();
   const { email = "", name = "" } = location.state || {};
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex justify-center min-h-screen">
       <div className="w-full max-w-2xl p-4 sm:p-10">
         {/* Page title */}
-        <h2 className="text-2xl sm:text-4xl font-bold mb-4 text-left">Account Settings</h2>
+        <h2 className="text-2xl font-bold mb-4 text-left">Account Settings</h2>
         <hr className="mb-8 border-black" />
         {/* Profile picture and user info */}
-        <div className="flex flex-col sm:flex-row items-center mb-8">
+        <div className="flex items-center mb-8">
           <div className="relative w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-0 sm:mr-8">
             <img
               src="https://randomuser.me/api/portraits/men/32.jpg"
@@ -35,7 +35,7 @@ const AccountSettings = () => {
         </div>
         {/* Description section */}
         <div className="mb-8">
-          <p className="text-base sm:text-xl font-semibold text-black mb-2">
+          <p className="text-base sm:text-md font-semibold text-black mb-2">
             Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam
           </p>
         </div>

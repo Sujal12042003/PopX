@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
     const navigate = useNavigate();
     return (
-        <div className='flex flex-col justify-center min-h-screen'>
+        <div className='flex flex-col md:justify-center justify-end -my-10 min-h-screen'>
             {/* Welcome message */}
             <h1 className="text-left md:text-center text-2xl pl-10 font-bold">Welcome to PopX</h1>
             <p className='mt-2 text-left md:text-center pl-10 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
